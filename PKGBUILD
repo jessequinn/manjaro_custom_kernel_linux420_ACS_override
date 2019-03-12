@@ -13,7 +13,7 @@ _basever=420
 _aufs=20190211
 _bfq=v9
 _bfqdate=20190204
-_sub=11
+_sub=15
 pkgver=${_basekernel}.${_sub}
 pkgrel=1
 arch=('i686' 'x86_64')
@@ -59,7 +59,7 @@ source=("https://www.kernel.org/pub/linux/kernel/v4.x/linux-${_basekernel}.tar.x
         '0013-bootsplash.patch'
 	acso.patch::https://gitlab.com/Queuecumber/linux-acs-override/raw/master/workspaces/4.20/acso.patch)
 sha256sums=('ad0823183522e743972382df0aa08fb5ae3077f662b125f1e599b0b2aaa12438'
-            '323920f80b836c5e45a068575e7d9da0083a8d377f3104f92daca1b089ff7228'
+            'd260efca438eaadd011e3eba4b106615059ddfe1926007cc023e490929c27bca'
             '46e96971ffc21a8d2870ea8ddbcba354cee69dcdada7e63bc29f6f85795ba3d0'
             'f5903377d29fc538af98077b81982efdc091a8c628cb85566e88e1b5018f12bf'
             'b44d81446d8b53d5637287c30ae3eb64cae0078c3fbc45fcf1081dd6699818b5'
